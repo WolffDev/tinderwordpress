@@ -38,10 +38,13 @@
 	border-left: 1px solid $teal;
 	border-bottom: 1px solid $teal;
 	p {
-		margin-bottom: 10px;
+		padding-bottom: 10px;
+		&:last-child {
+			padding-bottom: 0;
+		}
 	}
 	.collapsible-body-content {
-		padding: 2rem;
+		padding: 1.5rem 2rem;
 	}
 }
 
