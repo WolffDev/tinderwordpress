@@ -35,7 +35,11 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'top-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 		<?php else : ?>
-			<div class="btn-back arrow-back"></div>
+			<div class="btn-back arrow-back">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php bloginfo('template_directory');?>/images/back-arrow.svg" alt="back navigation arrow" />
+				</a>
+			</div>
 			<div class="nav-header-text">
 				<?php the_title( '<h4>', '</h4>' ); ?>
 			</div>

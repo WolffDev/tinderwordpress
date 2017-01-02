@@ -108,6 +108,7 @@ add_action( 'widgets_init', 'tindervol_widgets_init' );
 function tindervol_scripts() {
 	wp_enqueue_style( 'tindervol-style', get_stylesheet_uri() );
 	
+	// wp_enqueue_style( 'materializecss', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css' );
 
 	wp_enqueue_script('jquery');
 

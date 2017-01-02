@@ -1,8 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: $teal;
 	color: $color__text-main;
 	font-family: Brown, sans-serif;
-	box-sizing: border-box;
 }
 ul {
 	list-style: none;
@@ -22,8 +25,29 @@ header {
 	.site-logo img {
 		height: 35px;
 	}
+	.arrow-back img {
+		height: 40px;
+		padding: 5px;
+		position: absolute;
+		top: 6px;
+		left: 10px;
+	}
+	.nav-header-text {
+		margin-top: -20px;
+		text-align: center;
+		color: #fdf9f4;
+		h4 {
+			font-size: 2.28rem;
+			line-height: 110%;
+			margin: 1.14rem 0 0.912rem 0;
+		}
+	}
 }
 
 #content {
 	margin-top: 65px;
+}
+
+.div .collapsible-header {
+	background-color: $teal;
 }

@@ -1,6 +1,48 @@
+.collapsible {
+	margin: 0.5rem 0 1rem 0;
+	padding: 0 0.75rem;
+}
+
+.faq-container {
+	width: 90%;
+    background-color: #fdf9f4;
+    margin: 0 auto;
+    padding-top: 4px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
 .collapsible-header {
 	color: white;
 	cursor: pointer;
+	min-height: 3rem;
+	line-height: 3rem;
+	font-size: 15px;
+	background-color: $teal;
+	padding: 0 0.75rem;
+	border-bottom: 1px solid #fdf9f4;
+	i {
+		width: 2rem;
+		font-size: 1.6rem;
+		line-height: 3rem;
+		display: block;
+		float: left;
+		text-align: center;
+		margin-right: 1rem;
+	}
+}
+
+.collapsible-body {
+	border-right: 1px solid $teal;
+	border-left: 1px solid $teal;
+	border-bottom: 1px solid $teal;
+	p {
+		margin: 0;
+	}
+	.collapsible-body-content {
+		padding: 2rem;
+	}
 }
 
 .ani-down {
