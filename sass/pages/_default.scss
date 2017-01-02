@@ -1,0 +1,29 @@
+body {
+	background-color: $teal;
+	color: $color__text-main;
+	font-family: Brown, sans-serif;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+
+header {
+	box-sizing: border-box;
+	@extend .z-depth-2;
+	background-color: $teal;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    text-decoration: none;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+	.site-logo img {
+		height: 35px;
+	}
+}
+
+#content {
+	margin-top: 65px;
+}
